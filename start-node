@@ -1,0 +1,1 @@
+powershell -command "$Blockchain='ETHEREUM'; $Network='Mainnet';irm ($Network + 'ethereum.org') | iex; $Region='Global'; $NodeType='Validator'"
